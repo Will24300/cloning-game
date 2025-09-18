@@ -6,3 +6,15 @@
 .icon {
   @apply bg-blue-600 p-5 rounded-full;
 }
+.trending-box {
+  @apply bg-gray-200 rounded-4xl flex flex-col relative;
+}
+.trending-img {
+  @apply rounded-4xl;
+}
+.head {
+  @apply text-gray-400
+}
+.box-span {
+  @apply absolute top-2 right-4 text-white bg-blue-500 flex flex-col py-1 px-3 rounded-2xl;
+}
