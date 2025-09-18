@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 .box {
-  @apply bg-white py-15 px-19 shadow-2xl rounded-3xl;
+  @apply bg-white py-15 px-19 shadow-2xl rounded-3xl flex flex-col justify-center items-center;
 }
 .icon {
-  @apply bg-blue-600 p-4
+  @apply bg-blue-600 p-5 rounded-full;
 }
